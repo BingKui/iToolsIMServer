@@ -38,6 +38,9 @@ io.on('connection', (socket) => {
 });
 
 // 启动服务，绑定端口
-server.listen(55555, () => {
+server.listen({
+    port: 5555,
+    host: '0.0.0.0',
+}, () => {
     console.log('服务启动成功！端口：5555~');
 });
