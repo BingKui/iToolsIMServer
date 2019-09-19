@@ -1,0 +1,30 @@
+{
+  "name": "itoolsimserver",
+  "version": "0.0.1",
+  "description": "iTools客户端IM支持服务。",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BingKui/iToolsIMServer.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "express",
+    "socket.io",
+    "MongoDB"
+  ],
+  "author": "康兵奎",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BingKui/iToolsIMServer/issues"
+  },
+  "homepage": "https://github.com/BingKui/iToolsIMServer#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.3.2",
+    "socket.io": "^2.2.0"
+  }
+}
